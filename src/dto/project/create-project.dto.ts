@@ -9,7 +9,7 @@ export class CreateProjectDTO {
     @IsString()
     description? : string;
 
-    @IsNotEmpty()
-    @IsInt()
-    user_id : number;
+    // @IsNotEmpty()
+    // @IsInt()
+    // user_id : number;
 }
