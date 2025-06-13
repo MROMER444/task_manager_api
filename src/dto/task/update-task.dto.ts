@@ -24,9 +24,9 @@ export class UpdateTaskDto {
       @IsDateString()
       due_date?: string;
     
-      @IsNotEmpty()
-      @IsInt()
-      user_id: number;
+    //   @IsNotEmpty()
+    //   @IsInt()
+    //   user_id: number;
     
       @IsOptional()
       @IsInt()
